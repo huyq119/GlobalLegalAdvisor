@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="700" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .nav { fill: #2980b9; }
+    .nav-text { font: bold 22px sans-serif; fill: #fff; }
+    .title { font: bold 36px sans-serif; fill: #2c3e50; }
+    .desc { font: 20px sans-serif; fill: #555; }
+    .card { fill: #ecf0f1; stroke: #2980b9; stroke-width: 2; rx: 20; }
+    .button { fill: #2980b9; rx: 10; }
+    .button-text { font: bold 20px sans-serif; fill: #fff; }
+    .link { font: 18px sans-serif; fill: #2980b9; text-decoration: underline; }
+  </style>
+  <!-- 顶部导航栏 -->
+  <rect x="0" y="0" width="1200" height="60" class="nav"/>
+  <text x="40" y="40" class="nav-text">AI法律服务平台</text>
+  <text x="250" y="40" class="nav-text">首页</text>
+  <text x="350" y="40" class="nav-text">合同审查</text>
+  <text x="500" y="40" class="nav-text">法律检索</text>
+  <text x="700" y="40" class="nav-text">个人中心</text>
+  <rect x="1050" y="15" width="100" height="30" fill="#fff" rx="8"/>
+  <text x="1070" y="38" font-size="18" fill="#2980b9">登录/注册</text>
+  <!-- 主功能区 -->
+  <text x="420" y="130" class="title">合同审查</text>
+  <text x="350" y="180" class="desc">上传合同，AI帮您高效识别风险并给出修订建议</text>
+  <rect x="350" y="220" width="500" height="220" class="card"/>
+  <text x="500" y="270" font-size="28" fill="#2980b9">合同审查入口</text>
+  <rect x="500" y="320" width="200" height="50" class="button"/>
+  <text x="555" y="355" class="button-text">上传合同</text>
+  <text x="530" y="400" class="link">历史合同</text>
+</svg> 

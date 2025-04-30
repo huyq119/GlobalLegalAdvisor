@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="700" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .nav { fill: #2980b9; }
+    .nav-text { font: bold 22px sans-serif; fill: #fff; }
+    .title { font: bold 32px sans-serif; fill: #2c3e50; }
+    .desc { font: 18px sans-serif; fill: #555; }
+    .button { fill: #2980b9; rx: 10; }
+    .button-text { font: bold 20px sans-serif; fill: #fff; }
+    .share-btn { fill: #27ae60; rx: 10; }
+    .share-text { font: bold 20px sans-serif; fill: #fff; }
+    .link { font: 18px sans-serif; fill: #2980b9; text-decoration: underline; }
+  </style>
+  <!-- 顶部导航栏 -->
+  <rect x="0" y="0" width="1200" height="60" class="nav"/>
+  <text x="40" y="40" class="nav-text">AI法律服务平台</text>
+  <text x="250" y="40" class="nav-text">首页</text>
+  <text x="350" y="40" class="nav-text">合同审查</text>
+  <text x="500" y="40" class="nav-text">法律检索</text>
+  <text x="700" y="40" class="nav-text">个人中心</text>
+  <!-- 页面标题 -->
+  <text x="420" y="120" class="title">导出与分享</text>
+  <text x="420" y="160" class="desc">可将修订后的合同导出或分享给他人</text>
+  <!-- 导出按钮组 -->
+  <rect x="400" y="220" width="180" height="60" class="button"/>
+  <text x="440" y="260" class="button-text">导出为Word</text>
+  <rect x="650" y="220" width="180" height="60" class="button"/>
+  <text x="690" y="260" class="button-text">导出为PDF</text>
+  <!-- 分享按钮 -->
+  <rect x="525" y="320" width="180" height="60" class="share-btn"/>
+  <text x="570" y="360" class="share-text">分享给他人</text>
+  <!-- 历史记录入口 -->
+  <text x="540" y="450" class="link">历史记录</text>
+</svg> 

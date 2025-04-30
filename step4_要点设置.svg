@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="700" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .nav { fill: #2980b9; }
+    .nav-text { font: bold 22px sans-serif; fill: #fff; }
+    .title { font: bold 32px sans-serif; fill: #2c3e50; }
+    .desc { font: 18px sans-serif; fill: #555; }
+    .label { font: bold 20px sans-serif; fill: #2980b9; }
+    .checkbox { fill: #fff; stroke: #2980b9; stroke-width: 2; }
+    .checked { fill: #27ae60; }
+    .check-label { font: 18px sans-serif; fill: #555; }
+    .input { fill: #fff; stroke: #2980b9; stroke-width: 2; rx: 6; }
+    .button { fill: #2980b9; rx: 10; }
+    .button-text { font: bold 18px sans-serif; fill: #fff; }
+    .del { font: 16px sans-serif; fill: #e74c3c; cursor: pointer; }
+  </style>
+  <!-- 顶部导航栏 -->
+  <rect x="0" y="0" width="1200" height="60" class="nav"/>
+  <text x="40" y="40" class="nav-text">AI法律服务平台</text>
+  <text x="250" y="40" class="nav-text">首页</text>
+  <text x="350" y="40" class="nav-text">合同审查</text>
+  <text x="500" y="40" class="nav-text">法律检索</text>
+  <text x="700" y="40" class="nav-text">个人中心</text>
+  <!-- 页面标题 -->
+  <text x="420" y="120" class="title">设置审查要点</text>
+  <text x="420" y="160" class="desc">请选择或自定义本次合同审查的关注要点</text>
+  <!-- 默认要点多选 -->
+  <rect x="350" y="200" width="30" height="30" class="checkbox"/>
+  <rect x="355" y="205" width="20" height="20" class="checked"/>
+  <text x="390" y="222" class="check-label">金额</text>
+  <rect x="500" y="200" width="30" height="30" class="checkbox"/>
+  <rect x="505" y="205" width="20" height="20" class="checked"/>
+  <text x="540" y="222" class="check-label">期限</text>
+  <rect x="650" y="200" width="30" height="30" class="checkbox"/>
+  <text x="690" y="222" class="check-label">违约责任</text>
+  <rect x="800" y="200" width="30" height="30" class="checkbox"/>
+  <text x="840" y="222" class="check-label">争议解决</text>
+  <!-- 自定义要点输入 -->
+  <text x="350" y="270" class="label">自定义要点：</text>
+  <rect x="480" y="250" width="220" height="36" class="input"/>
+  <text x="490" y="275" font-size="18" fill="#555">知识产权</text>
+  <rect x="720" y="250" width="80" height="36" class="button"/>
+  <text x="740" y="275" class="button-text">添加</text>
+  <!-- 已添加自定义要点 -->
+  <text x="350" y="320" class="check-label">• 知识产权 <tspan class="del">删除</tspan></text>
+  <!-- 保存模板按钮 -->
+  <rect x="520" y="380" width="160" height="50" class="button"/>
+  <text x="570" y="415" class="button-text">保存为模板</text>
+  <!-- 下一步按钮 -->
+  <rect x="700" y="380" width="160" height="50" class="button"/>
+  <text x="750" y="415" class="button-text">下一步</text>
+</svg> 
