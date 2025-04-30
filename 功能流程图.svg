@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="700" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 28px sans-serif; fill: #2c3e50; }
+    .step { font: 16px sans-serif; fill: #34495e; }
+    .box { fill: #ecf0f1; stroke: #2980b9; stroke-width: 2; rx: 10; }
+    .arrow { stroke: #7f8c8d; stroke-width: 2; marker-end: url(#arrowhead); }
+    .arrow-loop { stroke: #7f8c8d; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d" />
+    </marker>
+  </defs>
+  <text x="180" y="40" class="title">合同审查模块流程图</text>
+
+  <!-- 步骤框 -->
+  <rect x="240" y="70" width="220" height="40" class="box"/>
+  <text x="260" y="98" class="step">选择"合同审查"</text>
+
+  <rect x="240" y="130" width="220" height="40" class="box"/>
+  <text x="260" y="158" class="step">上传合同文件</text>
+
+  <rect x="240" y="190" width="220" height="40" class="box"/>
+  <text x="260" y="218" class="step">AI识别合同类型</text>
+
+  <rect x="240" y="250" width="220" height="40" class="box"/>
+  <text x="260" y="278" class="step">选择/自定义审查要点</text>
+
+  <rect x="240" y="310" width="220" height="40" class="box"/>
+  <text x="260" y="338" class="step">AI自动审查合同内容</text>
+
+  <rect x="240" y="370" width="220" height="40" class="box"/>
+  <text x="260" y="398" class="step">生成风险报告与修订建议</text>
+
+  <rect x="240" y="430" width="220" height="40" class="box"/>
+  <text x="260" y="458" class="step">用户在线修订合同</text>
+
+  <rect x="240" y="490" width="220" height="40" class="box"/>
+  <text x="260" y="518" class="step">保存/导出修订版</text>
+
+  <rect x="240" y="550" width="220" height="40" class="box"/>
+  <text x="260" y="578" class="step">发送/分享审查结果</text>
+
+  <!-- 竖直箭头 -->
+  <line x1="350" y1="110" x2="350" y2="130" class="arrow"/>
+  <line x1="350" y1="170" x2="350" y2="190" class="arrow"/>
+  <line x1="350" y1="230" x2="350" y2="250" class="arrow"/>
+  <line x1="350" y1="290" x2="350" y2="310" class="arrow"/>
+  <line x1="350" y1="350" x2="350" y2="370" class="arrow"/>
+  <line x1="350" y1="410" x2="350" y2="430" class="arrow"/>
+  <line x1="350" y1="470" x2="350" y2="490" class="arrow"/>
+  <line x1="350" y1="530" x2="350" y2="550" class="arrow"/>
+
+  <!-- 循环和分支箭头 -->
+  <!-- 从"选择/自定义审查要点"回到"AI自动审查合同内容" -->
+  <path d="M460,270 Q500,300 460,330" class="arrow-loop"/>
+  <line x1="460" y1="330" x2="460" y2="350" class="arrow"/>
+  <polygon points="460,350 465,345 455,345" fill="#7f8c8d"/>
+
+  <!-- 从"用户在线修订合同"回到"保存/导出修订版" -->
+  <path d="M460,470 Q500,500 460,530" class="arrow-loop"/>
+  <line x1="460" y1="530" x2="460" y2="550" class="arrow"/>
+  <polygon points="460,550 465,545 455,545" fill="#7f8c8d"/>
+</svg> 
